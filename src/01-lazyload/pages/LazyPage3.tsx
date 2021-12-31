@@ -1,5 +1,5 @@
 
-export const LazyPage3 = () => {
+ export const LazyPage3 = () => {
     return (
         <div>
 
@@ -8,3 +8,4 @@ export const LazyPage3 = () => {
     );
 };
 
+ export default LazyPage3
