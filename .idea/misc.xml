@@ -3,19 +3,6 @@
   <component name="AndroidGradleBuildConfiguration">
     <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
   </component>
-  <component name="CompilerConfiguration">
-    <option name="DEFAULT_COMPILER" />
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-    </wildcardResourcePatterns>
-  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
