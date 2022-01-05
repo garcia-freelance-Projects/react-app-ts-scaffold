@@ -13,14 +13,8 @@ export const useProduct = ({product,onChange, value=0}:UseProductArgs) => {
 
     const [counter, setCounter] = useState(value);
 
-    // !! -> evalua si es true el onChange
-    const isControlled  = useRef( !!onChange);
 
     const increaseBy = (value: number) => {
-
-        if(isControlled.current){
-            return onChange!({count:value, product: product})
-        }
 
         const newValue = Math.max(counter + value, 0)
         setCounter(newValue)
